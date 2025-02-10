@@ -1,0 +1,22 @@
+#include <cstdio>
+
+int main() {
+    
+    int intValue;
+    long longValue;
+    char charValue;
+    float floatValue;
+    double doubleValue;
+
+    
+    scanf("%d %ld %c %f %lf", &intValue, &longValue, &charValue, &floatValue, &doubleValue);
+
+   
+    printf("%d\n", intValue);         
+    printf("%ld\n", longValue);        
+    printf("%c\n", charValue);         
+    printf("%.3f\n", floatValue);      
+    printf("%.9lf\n", doubleValue);   
+
+    return 0;
+}
